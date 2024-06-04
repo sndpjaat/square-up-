@@ -1,24 +1,24 @@
 :root{
     /* -----------------------------------font-size--------------------------------------   */
   
-    --fs-sm: 14px;
-    --fs-md: 16px;
-    --fs-lg: 18px;
+    --fs-sm: 12px;
+    --fs-md: 11px;
+    --fs-lg: 16px;
     --fs-xl: 20px;
     --fs-xxl: 24px;
     --fs-3xl: 30px;
     --fs-4xl: 38px;
-    --fs-5xl: 48px;
+    --fs-5xl: 30px;
   
      /* line-height */
      --lh-16: 16px;
      --lh-21: 21px;
-     --lh-24: 24px;
+     --lh-24: 20px;
      --lh-27: 27px;
      --lh-30: 30px;
      --lh-36: 36px;
      --lh-45: 45px;
-     --lh-57: 57px;
+     --lh-57: 40px;
    
   
   
@@ -282,4 +282,31 @@ font-size: var(--fs-3xl);
 .fw-900 {
     font-weight: var(--fw-900);
 }
-  
+  @media (min-width:576px) {
+    
+    :root{
+        /* -----------------------------------font-size--------------------------------------   */
+      
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-lg: 18px;
+        --fs-xl: 20px;
+        --fs-xxl: 24px;
+        --fs-3xl: 30px;
+        --fs-4xl: 38px;
+        --fs-5xl: 48px;
+      
+         /* line-height */
+         --lh-16: 16px;
+         --lh-21: 21px;
+         --lh-24: 24px;
+         --lh-27: 27px;
+         --lh-30: 30px;
+         --lh-36: 36px;
+         --lh-45: 45px;
+         --lh-57: 57px;
+       
+      
+      
+      }
+  }
