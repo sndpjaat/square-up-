@@ -273,7 +273,9 @@
 .pb-30 {
     padding-bottom: 30px;
 }
-
+.pt-24{
+    padding-top: 24px;
+}
 .black_box_2 {
     background: #24242433;
     border: 1px solid #262626;
@@ -338,7 +340,21 @@
 }
 
 /* <!------------------------------------------------------------------- section_4_for_crds ------------------------------------------------------------> */
-
+.border_full {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: var(--light-black);
+}
+.border_full_2 {
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: var(--light-black);
+}
+.border_full_1 {
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: var(--light-black);
+}
 .crd_box {
     max-width: 426px;
     padding: 40px 0px 0px 0px;
@@ -497,6 +513,9 @@
     padding-bottom: 134px;
     
 }
+.accordion-header{
+    background-color: var(--light-black);
+}
 .section_9_bg_pic {
     background-image: url(../image/section_9_bg_pic.png);
     background-repeat: no-repeat;
@@ -562,6 +581,7 @@
 }
 .accordion-body {
     padding: 0px 0px 0px 125px !important;
+    background-color: var(--light-black);
 
 
 }
@@ -651,6 +671,69 @@
 .pb-40{
     padding-bottom: 40px;
 }
+.border_full {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: var(--light-black);
+}
+.border_full_2 {
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: var(--light-black);
+}
+.border_full_1 {
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: var(--light-black);
+}
+.input_box{
+    max-width: 846px;
+    border: 1px solid var(--light-black);
+    padding: 60px;
+    border-top:  0;
+    padding-bottom: 139px;
+border-bottom: 0;
+}
+.full_input{
+ 
+   
+    border-radius: 6px;
+    background: #24242480;
+    border: 1px solid  var(--light-black);
+    padding: 20px 30px 20px 30px;
+}
+.type_here{
+    border-bottom: 1px solid var(--btn-2) !important;
+    width: 100%;
+   
+}
+.pt-16{
+    padding-top: 16px;
+}
+.box_last_section{
+    max-width: 726px;
+    border-radius: 8px;
+    border: 1px solid var(--light-black);
+    background: #24242480;
+padding: 30px;
+}
+.last_box{
+    max-width: 726px;
+    border-radius: 8px;
+    border: 1px solid var(--light-black);
+    background: #24242480;
+padding: 20px 30px;
+
+}
+.click_box{
+    width: 28px;
+    height: 28px;
+background: var(--light-black);
+border-radius: 4px;
+border: 1px solid var(--btn-2);
+
+
+}
 
 
 
@@ -696,28 +779,7 @@
 .max-w-111{
     max-width: 111px;
 }
-/* <!------------------------------------------------------------- section_11 --------------------------------> */
-
-.input_1 {
-    /* max-width: 452px; */
-    border-radius: 8px;
-    border: 1px solid var(--grey3);
-    padding: 12px 0px 11px 10px;
-    background: var(--black2);
-}
-
-.gap-12 {
-    gap: 12px;
-}
-
-.input_2 {
-    /* max-width: 180px; */
-    border-radius: 8px;
-    border: 1px solid var(--grey3);
-    background: var(--black2);
-    padding: 5px 10px 7px 10px;
-
-}
+/* <!------------------------------------------------------------- section_11 --------------------------------> *
 
 
 /* ----------------------------top_up_btn -----------------------------------*/

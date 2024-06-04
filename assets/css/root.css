@@ -53,12 +53,15 @@
       --drk-black: #000000;
       --text-light-white: #E6E6E6;
       --light-black: #262626;
-      --white-1: #98989A;
+      --white-5: #98989A;
       --white-2: #FDFFFA;
       --text-color-l-green: #D8FF99;
       --black_4: #1A1A1A;
       --text-drk-g:#C5FF66;
   
+  }
+  .white-5{
+    color: var(--white-5);
   }
   .text-drk-g{
     color: var(--text-drk-g);
