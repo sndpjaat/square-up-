@@ -1,23 +1,23 @@
 :root{
     /* -----------------------------------font-size--------------------------------------   */
   
-    --fs-sm: 12px;
+    --fs-sm: 10px;
     --fs-md: 11px;
     --fs-lg: 16px;
-    --fs-xl: 20px;
+    --fs-xl: 13px;
     --fs-xxl: 24px;
     --fs-3xl: 30px;
-    --fs-4xl: 38px;
+    --fs-4xl: 25px;
     --fs-5xl: 30px;
   
      /* line-height */
      --lh-16: 16px;
-     --lh-21: 21px;
+     --lh-21: 14px;
      --lh-24: 20px;
      --lh-27: 27px;
-     --lh-30: 30px;
+     --lh-30: 23px;
      --lh-36: 36px;
-     --lh-45: 45px;
+     --lh-45: 36px;
      --lh-57: 40px;
    
   
